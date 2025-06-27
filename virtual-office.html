@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #0a3d62;
+      color: white;
+      padding: 1rem 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(to right, #0a3d62, #1e6091);
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #0a3d62;
+      margin-top: 2rem;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .service-box {
+      background: #f4f4f4;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .service-box img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .service-box .content {
+      padding: 1rem;
+    }
+    form {
+      background-color: #f4f4f4;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      margin-top: 1rem;
+      background-color: #0a3d62;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      background: #f0f0f0;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <body>
+
+  <header>
+    <nav>
+      <div><strong>Todd Miller Realty</strong></div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="virtual-office.html">Virtual Offices</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>About Todd Miller Realty – Virtual Office Hub</h2>
+    <p><strong>Location:</strong> 7777 Davie Road Ext #302B, Hollywood, FL 33024<br>
+    <strong>Office Hours:</strong> Monday–Friday, 9 AM–5 PM</p>
+
+    <h2>What’s Included</h2>
+    <ul>
+      <li>Real corporate mailing address and dedicated business phone number (no PO Box)</li>
+      <li>Mail handling with scan-to-email, forwarding, and shredding options</li>
+      <li>Live bilingual receptionist answering in your business name with call forwarding</li>
+      <li>Remote voicemail access and voicemail-to-email functionality</li>
+      <li>Access to conference rooms, copier/fax machine, notary services, and secretarial support</li>
+    </ul>
+
+    <h2>Reputation & Scope</h2>
+    <p>Since 1988, Todd Miller Realty has been a trusted provider of commercial and residential property services in South Florida. With a reputation for professional, flexible solutions, we offer virtual office packages ideal for startups, consultants, and remote businesses.</p>
+    <p>Local reviews describe our location as a “great place to rent a virtual office” with “many services in a professional setting.”</p>
+
+    <h2>Virtual Office Services Comparison</h2>
+    <table>
+      <tr>
+        <th>Feature</th>
+        <th>Todd Miller Realty<br>($99/mo)</th>
+        <th>Typical Competitors<br>($120–$150/mo)</th>
+      </tr>
+      <tr><td>Prestigious Business Address</td><td>✅</td><td>✅</td></tr>
+      <tr><td>Dedicated Phone Number</td><td>✅</td><td>✅</td></tr>
+      <tr><td>Voicemail-to-Email Access</td><td>✅</td><td>✅</td></tr>
+      <tr><td>Live Bilingual Receptionist</td><td>✅</td><td>✅</td></tr>
+      <tr><td>Mail Handling & Forwarding</td><td>✅</td><td>✅</td></tr>
+      <tr><td>Conference Room Access</td><td>✅</td><td>✅ (limited or extra fee)</td></tr>
+      <tr><td>Copier / Fax Services</td><td>✅</td><td>❌</td></tr>
+      <tr><td>Notary Services</td><td>✅</td><td>❌</td></tr>
+      <tr><td>Secretarial Support</td><td>✅</td><td>❌</td></tr>
+    </table>
+
+    <p class="note">
+      *Comparison based on publicly available data from South Florida providers as of June 2025. Prices and services subject to change. Please verify with each provider.
+    </p>
+
+    <h2>Next Steps</h2>
+    <ul>
+      <li><strong>Get a quote:</strong> Call (954) 437‑5001 or (954) 289‑6233</li>
+      <li><strong>Visit us:</strong> Schedule a tour to see our office amenities and facilities</li>
+      <li><strong>Compare providers:</strong> Looking for other options in Fort Lauderdale or Miami? We're happy to help you evaluate.</li>
+    </ul>
+
+    <h2>📬 Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>📞 (954) 555-1234 | ✉️ info@toddmillerrealty.com</p>
+    <p>&copy; 2025 Todd Miller Realty. All rights reserved.</p>
+  </footer>
+  </div>
+  <footer>
+    <p>📞 (954) 555-1234 | ✉️ info@toddmillerrealty.com</p>
+    <p>&copy; 2025 Todd Miller Realty. All rights reserved.</p>
+  </footer>
+</body>
+</html>

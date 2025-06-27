@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Listings | Todd Miller Realty</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9; color: #333;
+    }
+    header { background: #0a3d62; color: white; padding: 1rem; }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px; margin: 0 auto;
+    }
+    nav a {
+      color: white; text-decoration: none;
+      margin-left: 1.5rem; font-weight: bold;
+    }
+    .container {
+      max-width: 960px; margin: 2rem auto;
+      padding: 1rem; background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h1, h2 { color: #0a3d62; }
+    .listing-card {
+      display: flex; flex-direction: column;
+      border: 1px solid #ddd;
+      border-radius: 8px; overflow: hidden;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    .listing-card img {
+      width: 100%; height: 220px;
+      object-fit: cover;
+    }
+    .listing-content {
+      padding: 1rem;
+    }
+    .listing-content h3 {
+      margin-top: 0; margin-bottom: 0.5rem;
+    }
+    .listing-content p {
+      margin: 0.5rem 0;
+    }
+    .listing-content a {
+      display: inline-block;
+      margin-top: 0.75rem;
+      background: #0a3d62; color: white;
+      padding: 0.5rem 1rem; text-decoration: none;
+      border-radius: 4px;
+    }
+    footer {
+      background: #f0f0f0; text-align: center;
+      padding: 1rem; margin-top: 2rem;
+      font-size: 0.9rem; color: #555;
+    }
+  </style>
+</head>
+<body>
+
+ <header>
+    <nav>
+      <div><strong>Todd Miller Realty</strong></div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="virtual-office.html">Virtual Offices</a>
+        <a href="listings.html">Listings</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Current Listings</h1>
+    <p>Click a listing below to view more details on LoopNet.</p>
+
+    <div class="listing-card">
+      <img src="image.png" alt="2520 Stirling Rd, Hollywood FL">
+      <div class="listing-content">
+        <h3>2520 Stirling Rd, Hollywood, FL 33020</h3>
+        <p><strong>Property Type:</strong> Hospitality (Hotel)</p>
+        <p><strong>Size:</strong> 72,297 SF • <strong>Year Built:</strong> 1987/2017</p>
+        <a href="https://www.loopnet.com/Listing/2520-Stirling-Rd-Hollywood-FL/26488569/" target="_blank">View on LoopNet</a>
+      </div>
+    </div>
+
+    <!-- Add more <div class="listing-card"> entries here as you publish new listings -->
+  </div>
+
+  <footer>
+    <p>📞 (954) 555-1234 | ✉️ info@toddmillerrealty.com</p>
+    <p>&copy; 2025 Todd Miller Realty. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
